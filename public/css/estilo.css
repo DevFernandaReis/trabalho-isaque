@@ -1,0 +1,21 @@
+.arquivo {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #084475;
+    color: white;
+
+}
+
+label {
+    display: block;
+}
+#botao {
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+#botao:hover {
+    background-color: #084475;
+    color: white;
+}
