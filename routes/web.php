@@ -6,6 +6,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // })->name('home');
 
-route:: get('/servidores',function() {
+Route::get('/',function() {
     return view('servidores.index');
+});
+
+Route::post('/servidores',function() {
+    return 'Lista de servidores';
 })->name('servidores.index');
